@@ -9,5 +9,7 @@
         public string Password { get; set; }
         public string? Role { get; set; }
         public string? PhoneNumber { get; set; }
+        //if LoggedIn == 1 -- this member is logged in, if 0 -- NOT logged in
+        public int LoggedIn { get; set;}
     }
 }
